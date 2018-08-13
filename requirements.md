@@ -1,24 +1,30 @@
 ### Tic Tac Toe
 
-Requirements:
+## Requirements:
 
 - [ ] We need Play Button
   - [ ] Play Button hides after game started
 - [ ] We need Restart Button
   - [ ] Restart Button appears when game ends
 - [ ] We need the board
-- [ ] Player 1 takes his turn
-  - [ ] if there is no more space to play, declare tie
-  - [ ] if there is three in line game ends, declare winner
-  - [ ] else Player 2 turn
-- [ ] Player 2 takes his turn
-  - [ ] if there is no more space to play, declare tie
-  - [ ] if there is three in line game ends, declare winner
-  - [ ] else Player 2 turn
+  - [ ] Create nine sections each numbered from 0-8
+    - [ ] Flex three sections at a time 
+    - [ ] Use borders to resemble the board.
+- [ ] Players alternate turns
+  - [ ] Player 'x' takes his turn
+    - [ ] if there is no more space to play, declare tie
+    - [ ] Player 'x' picks an empty spot
+    - [ ] if there is three in line game ends, declare Player 1 winner
+    - [ ] else Player 'o' turn
+  - [ ] Player 'o' takes his turn
+    - [ ] if there is no more space to play, declare tie
+    - [ ] Player 'o' picks an empty spot
+    - [ ] if there is three in line game ends, declare Player 2 winner
+    - [ ] else Player 'x' turn
 
-  Total [2,4,6,8]
-  Player 1 [1,9,8]
-  Player 2 [3,5]
 
-  Total.pop
-  push.player1
+# Optional:
+
+- [ ] Apply rules to decide which player start
+- [ ] Keep scores
+- [ ] Play best of (3,5...)
